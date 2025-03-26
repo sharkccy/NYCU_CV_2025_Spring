@@ -37,7 +37,7 @@ https://drive.google.com/file/d/1fx4Z6xl5b6r4UFkBrn5l0oPEIagZxQ5u/view?pli=1
 
 # Performance snapshot
 
-![Competition score](images/competition_score.png)
+![Rank](images/rank.png)
 
 ![Loss curve](images/loss_curve.png)
 
