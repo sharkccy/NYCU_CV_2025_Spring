@@ -12,7 +12,7 @@ Participants can only use Mask-RCNN based model.
 
 This pipeline generate a fine-tuned model achieving
 
-mAP: 0.4027, Task 2 Accuracy: 0.8477 in the competition.
+mAP: 0.4148 in the competition.
 
 With `seresnextaa101d_32x8d.sw_in12k_ft_in1k_288` from the `timm` library serving as backbone model, I customized a ROI head, anchor size, and the loss function including dice loss, boundary loss, focal loss, etc.
 
@@ -22,7 +22,7 @@ The finetune process takes 16 hours with a RTX 4060 (laptop).
 ### Step 1: Clone the Repository
 ### Step 2: Create a new Conda environment and install the dependencies using the provided environment.yml file.
     conda env create -f environment.yml
-    conda activate my_env
+    conda activate imageML
 ## Step 3: Download the dataset and unzip
 https://drive.google.com/file/d/1B0qWNzQZQmfQP7x7o4FDdgb9GvPDoFzI/view
 
