@@ -43,6 +43,8 @@ https://drive.google.com/drive/folders/1Q4qLPMCKdjn-iGgXV_8wujDmvDpSI1ul
 ![Rank](images/rank.png)
 
 ![Loss curve](images/learning_curve.png)
+    pink: Initial training
+    gray and orange: Continue training with validation set applied to detect overfitting
 
 
   
