@@ -1,4 +1,4 @@
-# NYCU Computer Vision (Graduate) 2025 Spring
+# NYCU Vision Recognition with Deep Learning (Graduate) 2025 Spring
 StudentID: 110612117
   
 Name: Chung-Yu Chang (張仲瑜)
