@@ -100,7 +100,7 @@ if __name__ == '__main__':
 
     checkpoint = torch.load(model_path, map_location=device, weights_only=False)
     state_dict = checkpoint['model_state_dict']
-    # 簡單處理 state_dict，移除可能的 module. 前綴
+    
     state_dict = {k.replace('module.', ''): v for k, v in state_dict.items()}
     model.load_state_dict(state_dict)
     model.to(device)
